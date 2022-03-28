@@ -5,29 +5,47 @@
 # - name: Framework
 #   weight: 5
 
-- name: Angular
-  weight: 5
-
-- name: AngularJS
-  weight: 3
-
-- name: React
+- name: Pandas
   weight: 4
 
-- name: Node
-  weight: 1
-
-- name: Flutter
+- name: PyTorch
   weight: 2
 
-- name: Express
+- name: Scikit-learn
   weight: 3
 
-- name: Django
-  weight: 1
+- name: Numpy
+  weight: 3
 
-- name: Spring
+- name: Google Data Studio
+  weight: 3
+
+- name: Python
+  weight: 4
+
+- name: R
+  weight: 3
+
+- name: C#/ASP.NET
   weight: 2
 
-- name: Rails
+- name: Android (Java)
+  weight: 2
+
+- name: SQL
+  weight: 5
+
+- name: VS Code
+  weight: 5
+
+- name: RStudio
+  weight: 3
+
+- name: Android Studio
+  weight: 2
+
+- name: Azure DevOps
+  weight: 5
+
+- name: TFS
   weight: 4

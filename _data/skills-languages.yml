@@ -5,38 +5,47 @@
 # - name: Language
 #   weight: 5
 
-- name: TypeScript
+- name: Scrum Practitioner
   weight: 5
 
-- name: JavaScript
+- name: Requirements Gathering
   weight: 4
 
-- name: Python
-  weight: 2
+- name: User Story Writing
+  weight: 5
 
-- name: HTML5
+- name: Define Acceptance Criteria
+  weight: 5
+
+- name: Good communication
+  weight: 3
+
+- name: Collaborative Decision Making
   weight: 4
 
-- name: CSS3
-  weight: 3
-
-- name: SASS
-  weight: 3
-
-- name: Java
-  weight: 1
-
-- name: Dart
-  weight: 1
-
-- name: Swift
-  weight: 1
-
-- name: Kotlin
-  weight: 1
-
-- name: C++
+- name: Neural Networks
   weight: 2
 
-- name: Ruby
+- name: Linear and non-linear Classifiers
+  weight: 3
+
+- name: Reinforcement Learning
+  weight: 1
+
+- name: Bayesian Statistics
   weight: 2
+
+- name: Statistical Inference
+  weight: 1
+
+- name: Hypothesis Testing
+  weight: 3
+
+- name: Probability
+  weight: 3
+
+- name: Limit Theorems
+  weight: 1
+
+- name: Data Science
+  weight: 3
