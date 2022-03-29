@@ -8,7 +8,7 @@ description: Stephen Mathew's personal website
 # baseurl: The subpath of your site
 # > set this to "", if you renamed the repository to <user>.github.io
 baseurl: ""
-url: "https://stephen-mathew.github.io/neumorphism"
+url: "https://stephen-mathew.github.io/neumorphism/"
 
 # LANDING PAGE
 # username: This will displayed on the landing page as your name.
