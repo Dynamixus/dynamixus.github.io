@@ -4,7 +4,7 @@
 # title: This will be displayed as the website's name in your browser tab.
 title: Stephen Mathew
 # description: This will be meta HTML tag content. This can be ignored.
-description: Over 4 years experience in Product Management in Agile development at a leading global technology company. More than 7 years experience in the Managed Print Services industry. Certified in Data Science and Machine Learning by  Massachusetts Institute of Technology. Total IT Experience of over 12.5 years. Certified Scrum Product Owner.
+description: Agile Product Management
 # baseurl: The subpath of your site
 # > set this to "", if you renamed the repository to <user>.github.io
 baseurl: ""
@@ -35,7 +35,6 @@ show_aboutme_card: true
 about_me_title: About Me
 # about_me_description: This will be displayed under the title.
 about_me_description: Over 4 years experience in Product Management in Agile development at a leading global technology company. More than 7 years experience in the Managed Print Services industry. Certified in Data Science and Machine Learning by  Massachusetts Institute of Technology. Total IT Experience of over 12.5 years. Certified Scrum Product Owner.
-
 # SKILLS SECTION
 # show_skills_card:
 # > setting this to true, will display the Skills section
@@ -116,6 +115,7 @@ google-analytics:
 
 plugins:
   - "jekyll-github-metadata"
+  - jekyll-seo-tag
 
 exclude:
   [
