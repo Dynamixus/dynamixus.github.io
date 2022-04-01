@@ -22,6 +22,15 @@
 
   <script src="{{ "/assets/js/vendors.min.js" | prepend: site.baseurl }}"></script>
   <script src="{{ "/assets/js/app.min.js" | prepend: site.baseurl }}"></script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-8GDGD2LT3G"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-8GDGD2LT3G');
+  </script>
   {% seo %} 
 
 </head>
@@ -64,7 +73,6 @@
     {% endif %}
   </div>
   {% include footer.html %}
-  {% include analytics.html %}
 </body>
 
 </html>
