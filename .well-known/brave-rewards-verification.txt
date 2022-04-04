@@ -1,4 +1,0 @@
-This is a Brave Rewards publisher verification file.
-
-Domain: stephen-mathew.github.io
-Token: d3f3f2c2aae88c5bc56d010602b435002cfb2f28b62252853f7d298cf925d852
