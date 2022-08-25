@@ -34,7 +34,7 @@ show_aboutme_card: true
 # about_me_title: The will be displayed as the title in the About Me section
 about_me_title: About Me
 # about_me_description: This will be displayed under the title.
-about_me_description: Over 4 years experience in Product Management in Agile development at a leading global technology company. More than 7 years experience in the Managed Print Services industry. Certified in Data Science and Machine Learning by Massachusetts Institute of Technology. Total IT Experience of 13 years. Certified Scrum Product Owner.
+about_me_description: Over 4 years experience in Product Management in Agile development at a leading global technology company. More than 7 years experience in the Managed Print Services industry. Certified in Data Science and Machine Learning by  Massachusetts Institute of Technology. Total IT Experience of 13 years. Certified Scrum Product Owner.
 # SKILLS SECTION
 # show_skills_card:
 # > setting this to true, will display the Skills section
@@ -52,7 +52,8 @@ show_timeline_card: true
 timeline_title: Education & Experience
 # cv_download_link: The link where you host your cv.
 # > e.g. you share your cv on your dropbox, then add the dropbox link here
-cv_download_link: https://docs.google.com/gview?url=https://github.com/stephen-mathew/stephen-mathew.github.io/raw/master/Stephen%20Mathew%20-%20Resume.docx&embedded=true
+cv_download_link: https://docs.google.com/gview?url=https://github.com/stephen-mathew/stephen-mathew.github.io/raw/master/Stephen%20Mathew%20-%20Resume.pdf&embedded=true
+
 # PROJECTS SECTION
 # show_projects_card:
 # > setting this to true, will display the Projects section

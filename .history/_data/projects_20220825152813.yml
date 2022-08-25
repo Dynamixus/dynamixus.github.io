@@ -29,13 +29,6 @@
     - tag: Scrum Alliance
     - tag: Mar 2019
 
-- name: DP-100 Azure Azure Data Scientist Associate)
-  descr: ""
-  demo:
-  tags:
-    - tag: Microsoft
-    - tag: Aug 2022
-
 - name: MIT  6.86x  Machine  Learning  with  Python - From  Linear Models  to  Deep  Learning
   descr: ""
   demo:
@@ -71,12 +64,12 @@
     - tag: Microsoft
     - tag: Aug 2022
 
-- name: DP-900 Azure Data Fundamentals
+- name: AZ-900 Azure Fundamentals
   descr: ""
   demo:
   tags:
     - tag: Microsoft
-    - tag: Aug 2022
+    - tag: Nov 2019
 
 - name: AZ-900 Azure Fundamentals
   descr: ""

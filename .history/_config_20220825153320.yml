@@ -52,7 +52,8 @@ show_timeline_card: true
 timeline_title: Education & Experience
 # cv_download_link: The link where you host your cv.
 # > e.g. you share your cv on your dropbox, then add the dropbox link here
-cv_download_link: https://docs.google.com/gview?url=https://github.com/stephen-mathew/stephen-mathew.github.io/raw/master/Stephen%20Mathew%20-%20Resume.docx&embedded=true
+cv_download_link: https://docs.google.com/gview?url=https://github.com/stephen-mathew/stephen-mathew.github.io/raw/master/Stephen%20Mathew%20-%20Resume.pdf&embedded=true
+
 # PROJECTS SECTION
 # show_projects_card:
 # > setting this to true, will display the Projects section
