@@ -10,14 +10,15 @@
         </div>
         <div class="project-details">
             <div class="name-link-wrapper">
+                {% if project.demo %}
+                <a href="{{project.demo}}" target="_blank" rel="noreferrer">
+                    <h3>{{project.name}}</h3>
+                </a>
+                {% else %}
                 <h3>{{project.name}}</h3>
+                {% endif %}
             </div>
             <p class="project-desc">{{project.descr}}</p>
-            {% if project.demo %}
-            <a class="highlight-link" href="{{project.demo}}" target="_blank" rel="noreferrer">
-                Link
-            </a>
-            {% endif %}
             {% if project.tags %}
             <div class="tag-wrapper">
                 {% for tag in project.tags %}

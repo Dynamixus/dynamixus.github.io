@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap");
 
 html {
-	background: #d5d5d5;
+	background: #333333;
 	color: #fff;
 	font-family: Raleway, sans-serif;
 	font-size: 1rem;
@@ -92,11 +92,11 @@ a:hover {
 }
 
 .neumorphism-card {
-	box-shadow: inset 2px 2px 4px #000, inset -2px -2px 4px rgba(0, 0, 0, .4)
+	box-shadow: inset 2px 2px 4px #000, inset -2px -2px 4px #000
 }
 
 .neumorphism-card-big {
-	box-shadow: 5px 5px 4px #161718, -5px -5px 4px #404346
+	box-shadow: 5px 5px 4px #000, -5px -5px 4px #000
 }
 
 #preloader {
