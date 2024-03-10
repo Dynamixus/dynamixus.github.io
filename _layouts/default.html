@@ -17,9 +17,6 @@
     }}">
     <link rel="manifest" href="{{ "/assets/favicon/site.webmanifest" | prepend: site.baseurl }}">
 
-    <link rel="stylesheet" href="{{ "/assets/css/main.min.css" | prepend: site.baseurl }}">
-    <link rel="stylesheet" href="{{ "/assets/css/vendors.min.css" | prepend: site.baseurl }}">
-
     <style>
         /* Customize scrollbar track color */
         ::-webkit-scrollbar-track {
@@ -65,6 +62,10 @@
             animation: custom-scrollbar-pulse 1.5s infinite; /* Adjust animation duration as needed */
         }
     </style>
+
+    <link rel="stylesheet" href="{{ "/assets/css/main.min.css" | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ "/assets/css/vendors.min.css" | prepend: site.baseurl }}">
+
     <script src="{{ "/assets/js/vendors.min.js" | prepend: site.baseurl }}"></script>
     <script src="{{ "/assets/js/app.min.js" | prepend: site.baseurl }}"></script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
