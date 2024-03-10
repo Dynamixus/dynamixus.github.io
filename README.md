@@ -13,5 +13,5 @@ It might be better to contact *Longdpo* for support, I'm just copying what they 
 ## Acknowledgements
 
 - All the [acknowledgements](https://github.com/longpdo/neumorphism?tab=readme-ov-file#acknowledgements) from the original.
-- Canva 
 - All the different forks of the original that I took inspiration from.
+- Canva 
