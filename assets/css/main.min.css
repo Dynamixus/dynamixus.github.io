@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap");
 
 html {
-	background: #2b2d2f;
+	background: #333333;
 	color: #fff;
 	font-family: Raleway, sans-serif;
 	font-size: 1rem;
@@ -25,7 +25,7 @@ p {
 }
 
 a {
-	color: #0fa154;
+	color: #c4a489;
 	text-decoration: none
 }
 
@@ -34,21 +34,21 @@ a:hover {
 }
 
 .highlight-title {
-	color: #0fa154;
-	text-shadow: .25rem .25rem .25rem #0fa154
+	color: #c4a489;
+	text-shadow: .25rem .25rem .25rem #c4a489
 }
 
 .highlight-link {
-	box-shadow: inset 0 -.125rem 0 #0fa154;
+	box-shadow: inset 0 -.125rem 0 #c4a489;
 	box-sizing: border-box;
-	color: #0fa154;
+	color: #c4a489;
 	display: inline-block;
 	padding: .125rem;
 	transition: all .2s ease-in-out
 }
 
 .highlight-link:hover {
-	box-shadow: inset 0 -2rem 0 0 #0fa154;
+	box-shadow: inset 0 -2rem 0 0 #c4a489;
 	color: #fff
 }
 
@@ -59,7 +59,7 @@ a:hover {
 }
 
 .layout .card {
-	background: linear-gradient(145deg, hsla(0, 0%, 45%, .15) 15%, #2b2d2f 80%);
+	background: linear-gradient(145deg, hsla(0, 0%, 45%, .15) 15%, #333333 80%);
 	border-radius: 2rem;
 	margin: 3rem 0;
 	padding: 1rem 2rem
@@ -84,7 +84,7 @@ a:hover {
 }
 
 .neumorphism-card {
-	box-shadow: inset 2px 2px 4px #000, inset -2px -2px 4px #636363
+	box-shadow: inset 2px 2px 4px #000, inset -2px -2px 4px #635345
 }
 
 .neumorphism-card-big {
@@ -94,7 +94,7 @@ a:hover {
 #preloader {
 	-ms-flex-align: center;
 	align-items: center;
-	background: #2b2d2f;
+	background: #333333;
 	display: -ms-flexbox;
 	display: flex;
 	height: 100%;
@@ -133,7 +133,7 @@ a:hover {
 
 #preloader .load :nth-child(2) {
 	animation-delay: -1s;
-	background: #0fa154
+	background: #c4a489
 }
 
 #preloader .load :nth-child(3) {
@@ -142,7 +142,7 @@ a:hover {
 }
 
 #preloader .load :last-child {
-	background: #0fa154
+	background: #c4a489
 }
 
 @keyframes a {
@@ -164,7 +164,7 @@ a:hover {
 }
 
 .footer {
-	background: #2b2d2f;
+	background: #333333;
 	color: #fff;
 	margin: .5rem;
 	padding: 1rem;
@@ -172,11 +172,11 @@ a:hover {
 }
 
 .footer a {
-	color: #0fa154
+	color: #c4a489
 }
 
 #landing, .footer a:focus, .footer a:hover {
-	background: #2b2d2f;
+	background: #333333;
 	color: #fff
 }
 
@@ -311,7 +311,7 @@ a:hover {
 
 @keyframes e {
 	to {
-		stroke: #0fa154
+		stroke: #c4a489
 	}
 }
 
@@ -406,7 +406,7 @@ a:hover {
 }
 
 .timeline-wrapper .hexagon {
-	background: #0fa154;
+	background: #c4a489;
 	height: .5rem;
 	left: 0;
 	margin-left: auto;
@@ -428,12 +428,12 @@ a:hover {
 }
 
 .timeline-wrapper .hexagon:before {
-	border-bottom: .25rem solid #0fa154;
+	border-bottom: .25rem solid #c4a489;
 	top: -.25rem
 }
 
 .timeline-wrapper .hexagon:after {
-	border-top: .25rem solid #0fa154;
+	border-top: .25rem solid #c4a489;
 	bottom: -.25rem
 }
 
@@ -443,7 +443,7 @@ a:hover {
 }
 
 .timeline-wrapper .flag {
-	background: #2b2d2f;
+	background: #333333;
 	border-radius: .5rem;
 	font-weight: 600;
 	padding: .25rem .5rem
@@ -456,7 +456,7 @@ a:hover {
 
 .timeline-wrapper .flag span:after {
 	content: "\226B";
-	color: #0fa154;
+	color: #c4a489;
 	position: absolute;
 	opacity: 0;
 	right: -1rem;
@@ -481,14 +481,14 @@ a:hover {
 }
 
 .timeline-wrapper .time {
-	background: #2b2d2f;
+	background: #333333;
 	border-radius: .5rem;
 	display: inline-block;
 	padding: .6rem
 }
 
 .timeline-wrapper .desc {
-	background: #2b2d2f;
+	background: #333333;
 	border-radius: 1rem;
 	margin: 1em 0 0;
 	padding: .75em;
@@ -554,7 +554,7 @@ a:hover {
 }
 
 .contact-icons .social-link .social-svg {
-	fill: #0fa154
+	fill: #c4a489
 }
 
 .contact-icons .social-link:hover {
@@ -642,7 +642,7 @@ a:hover {
 	}
 
 	#skills input[type=radio]:checked+.filter-button {
-		color: #0fa154;
+		color: #c4a489;
 		font-weight: 600;
 		background: linear-gradient(150deg, hsla(0, 0%, 8%, .4) 10%, hsla(0, 0%, 45%, .15) 80%);
 		box-shadow: 1px 1px 2px 0 hsla(0, 0%, 82%, .4), -1px -1px 2px rgba(0, 0, 0, .4), inset 3px 3px 2px 0 rgba(0, 0, 0, .4), inset -1px -2px 2px hsla(0, 0%, 82%, .4)

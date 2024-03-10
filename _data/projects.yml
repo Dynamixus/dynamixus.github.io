@@ -13,74 +13,18 @@
 #     - tag: AngularJS
 #     - tag: Node
 
-- name: A Study into the deviation in actual printer usage from the expected and deriving the Ideal Coverage for a device (2019)
-  descr: "Received highest grade for this Dissertation done as part of M.Tech with BITS Pilani at Xerox involving Linear Regression and Machine Learning"
-  demo: https://stephen-mathew.github.io/BITS%20Dissertation.html
-  tags:
-    - tag: Python
-    - tag: sckit-learn
-    - tag: pandas
-    - tag: Linear regression
+- name: The Chronicles of Nero
+  descr: "My writing blog, based on Tumblr."
+  demo: https://nerochronicles.tumblr.com/
 
-- name: Certified Scrum Product Owner
-  descr: ""
-  demo:
-  tags:
-    - tag: Scrum Alliance
-    - tag: Mar 2019
+- name: Dyna's Piloting Service
+  descr: "Piloting service for popular games such as Genshin Impact and Honkai Star Rail. I also accept academic commissions."
+  demo: https://bit.ly/dynaservices
 
-- name: DP-100 Azure Azure Data Scientist Associate
-  descr: ""
-  demo:
-  tags:
-    - tag: Microsoft
-    - tag: Aug 2022
+- name: The Night Howls
+  descr: "My personal written works, most of which are poetry."
+  demo: https://thenightwhispersx.tumblr.com/
 
-- name: MIT  6.86x  Machine  Learning  with  Python - From  Linear Models  to  Deep  Learning
-  descr: ""
-  demo:
-  tags:
-    - tag: Massachusetts Institute of Technology
-    - tag: Dec 2020
-
-- name: MIT 18.6501x Fundamentals of Statistics
-  descr: ""
-  demo:
-  tags:
-    - tag: Massachusetts Institute of Technology
-    - tag: Sep 2020
-
-- name: MIT  6.431x  Probability  -  The  Science  of  Uncertainty and  Data
-  descr: ""
-  demo:
-  tags:
-    - tag: Massachusetts Institute of Technology
-    - tag: May 2020
-
-- name: MIT 14.310Fx Data Analysis in Social Science
-  descr: ""
-  demo:
-  tags:
-    - tag: Massachusetts Institute of Technology
-    - tag: Sep 2020
-
-- name: AI-900 Azure AI Fundamentals
-  descr: ""
-  demo:
-  tags:
-    - tag: Microsoft
-    - tag: Aug 2022
-
-- name: DP-900 Azure Data Fundamentals
-  descr: ""
-  demo:
-  tags:
-    - tag: Microsoft
-    - tag: Aug 2022
-
-- name: AZ-900 Azure Fundamentals
-  descr: ""
-  demo:
-  tags:
-    - tag: Microsoft
-    - tag: Nov 2019
+- name: My Spotify Playlists
+  descr: "You never know, you might like some of them."
+  demo: https://open.spotify.com/user/hmko8huug7r8hunoiqf8glh4i

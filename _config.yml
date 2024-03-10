@@ -2,28 +2,28 @@
 
 # GENERAL SITE SETTINGS
 # title: This will be displayed as the website's name in your browser tab.
-title: Stephen Mathew
+title: Nero Dynamo
 # description: This will be meta HTML tag content. This can be ignored.
-description: Agile Product Management
+description: Personal website.
 # baseurl: The subpath of your site
 # > set this to "", if you renamed the repository to <user>.github.io
 baseurl: ""
 
 # LANDING PAGE
 # username: This will displayed on the landing page as your name.
-username: Stephen Mathew
+username: Nero Dynamo
 # typing_text: This will be typed before 'scroll down for more'.
 # > set this to your job title, e.g. Fullstack Developer
-typing_text: Technical Product Manager
+typing_text: gamer, writer, freelancer
 # email: Your E-Mail address for the email button.
-email: cstephenmathew@gmail.com
+email: dynamixus0@gmail.com
 # For every social button you want to display, set your username or userid
 # If you do not use one of the following websites, then leave it empty
 # > twitter_username:
-github_username: stephen-mathew
-codepen_username:
-dev_username:
-linkedin_username: stephenmathew
+github_username: Dynamixus
+codepen_username: 
+dev_username: 
+linkedin_username: 
 twitter_username:
 
 # ABOUT ME SECTION
@@ -34,13 +34,13 @@ show_aboutme_card: true
 # about_me_title: The will be displayed as the title in the About Me section
 about_me_title: About Me
 # about_me_description: This will be displayed under the title.
-about_me_description: Almost 5 years experience in Product Management using Agile methodologies at the enterprise level. Certified in Data Science and Machine Learning by Massachusetts Institute of Technology. Total IT Experience of 13 years. My objective is use technology to influence peoples' lives positively. 
+about_me_description: I spend most of my time playing games, reading fantasy novels, or catching up on my favorite manhwa and manga. At night I begin the grind burning the midnight oil, researching for my writing works, being a pilot for games and academics, and giving assistance to my many online communities.
 
 # SKILLS SECTION
 # show_skills_card:
 # > setting this to true, will display the Skills section
 # > setting this to false, will omit the Skills section
-show_skills_card: true
+show_skills_card: false
 # about_me_title: The will be displayed as the title in the Skills section
 skills_title: Skills
 
@@ -48,12 +48,13 @@ skills_title: Skills
 # show_timeline_card:
 # > setting this to true, will display the Timeline section
 # > setting this to false, will omit the Timeline section
-show_timeline_card: true
+show_timeline_card: false
 # timeline_title: The will be displayed as the title in the Timeline section
 timeline_title: Education & Experience
 # cv_download_link: The link where you host your cv.
 # > e.g. you share your cv on your dropbox, then add the dropbox link here
 cv_download_link: https://stephen-mathew.github.io/Stephen%20Mathew%20-%20Resume.pdf
+
 # PROJECTS SECTION
 # show_projects_card:
 # > setting this to true, will display the Projects section
@@ -64,7 +65,7 @@ show_projects_card: true
 # > setting this to false, will omit your listed projects
 show_projects: true
 # projects_title: The will be displayed as the title of your projects
-projects_title: Projects and Certifications
+projects_title: Sites
 # show_os_projects:
 # > setting this to true, will display your public projects on github
 # > setting this to false, will omit your public projects on github
@@ -80,7 +81,7 @@ show_contact_card: true
 # contact_title: The will be displayed as the title in the Contact section
 contact_title: Contact
 # contact_description: This will be displayed under the title.
-contact_description:
+contact_description: Please do not hesitate to reach out to me about anything. Whether you want to chat about Pokemon, hire me for a freelance writing job, or just want to chat.
 
 # GITHUB-METADATA
 # Set this to your forked repository
@@ -109,7 +110,7 @@ projects:
 # Set the id, if you want to track your website with Google Analytics
 # > set this to "", if you do not want to track with Google Analytics
 google-analytics:
-  id: "G-8GDGD2LT3G"
+  id: ""
 
 ### END OF VALUES YOU SHOULD CHANGE ###
 
