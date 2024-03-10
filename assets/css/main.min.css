@@ -10,46 +10,6 @@ html {
 	overflow: hidden
 }
 
-@keyframes custom-scrollbar-pulse {
-	0%, 100% {
-		opacity: 1;
-	}
-
-	50% {
-		opacity: 0;
-	}
-}
-
-/* Hide scrollbar when not in use */
-.content::-webkit-scrollbar {
-	width: 8px; /* Adjust width of the scrollbar */
-	opacity: 0; /* Hide scrollbar initially */
-	transition: opacity 0.5s; /* Add transition for smooth appearance */
-}
-
-/* Show scrollbar on hover */
-.content:hover::-webkit-scrollbar {
-	opacity: 1; /* Show scrollbar on hover */
-}
-
-/* Customize scrollbar track color */
-::-webkit-scrollbar-track {
-	background: hsla(0, 0%, 98%, .13); /* Change to desired background color */
-}
-
-/* Customize scrollbar thumb color */
-::-webkit-scrollbar-thumb {
-	background: #c4a489; /* Change to desired thumb color */
-	border-radius: 10px; /* Adjust to make the edges rounded */
-	animation: custom-scrollbar-pulse 1.5s infinite; /* Adjust animation duration as needed */
-}
-
-/* Customize scrollbar thumb on hover */
-::-webkit-scrollbar-thumb:hover {
-	background: #e4a909; /* Change to desired hover color */
-}
-
-
 .avatar {
 	width: 200px; /* Adjust width as needed */
 	height: 200px;
