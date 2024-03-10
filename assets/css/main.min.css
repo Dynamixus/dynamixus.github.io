@@ -10,6 +10,12 @@ html {
 	overflow: hidden
 }
 
+.avatar {
+	border-radius: 50%;
+	box-shadow: 0 0 20px rgba(0, 255, 255, 0.5); /* Adjust the color and size of the glow here */
+	margin-bottom: 20px
+}
+
 body, html {
 	height: 100%
 }
@@ -59,7 +65,7 @@ a:hover {
 }
 
 .layout .card {
-	background: linear-gradient(145deg, hsla(0, 0%, 45%, .15) 15%, #333333 80%);
+	background: linear-gradient(145deg, hsla(0, 0%, 45%, .15) 15%, #fcebd5 80%);
 	border-radius: 2rem;
 	margin: 3rem 0;
 	padding: 1rem 2rem
@@ -84,11 +90,11 @@ a:hover {
 }
 
 .neumorphism-card {
-	box-shadow: inset 2px 2px 4px #000, inset -2px -2px 4px #635345
+	box-shadow: inset 2px 2px 4px #c4a489, inset -2px -2px 4px #635345
 }
 
 .neumorphism-card-big {
-	box-shadow: 5px 5px 4px #161718, -5px -5px 4px #404346
+	box-shadow: 5px 5px 4px #c4a489, -5px -5px 4px #404346
 }
 
 #preloader {
@@ -184,7 +190,8 @@ a:hover {
 	display: -ms-flexbox;
 	display: flex;
 	height: 100%;
-	text-align: center
+	text-align: center;
+	align-items: center
 }
 
 #landing, .landing-title {
