@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap");
 
 html {
-	background: #c4a489;
+	background: #d5d5d5;
 	color: #fff;
 	font-family: Raleway, sans-serif;
 	font-size: 1rem;
@@ -512,17 +512,17 @@ a:hover {
 }
 
 .visual-aid {
+	display: flex; /* Make the visual-aid container a flex container */
+	align-items: center; /* Center items vertically */
 	flex: 0 0 auto; /* Let the visual aid occupy only the necessary space */
 }
 
 .project-image {
-	display:flex;
-	width: 100px; /* Adjust width as needed */
-	height: 100px; /* Adjust height as needed */
+	width: 125px; /* Adjust width as needed */
+	height: 125px; /* Adjust height as needed */
 	border-radius: 10px; /* Adjust border radius for rounded corners */
 	margin-right: 20px; /* Adjust margin between image and text */
 	margin-left: 10px;
-	align-items: center;
 }
 
 .project-details {
