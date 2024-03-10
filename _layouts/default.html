@@ -19,25 +19,19 @@
 
     <style>
 
+        @keyframes custom-scrollbar-pulse {
+            0%, 100% {
+                opacity: 1;
+            }
+
+            50% {
+                opacity: 0;
+            }
+        }
+
         ::-webkit-scrollbar {
             width: 10px;
         }
-
-        /* Customize scrollbar track color */
-        ::-webkit-scrollbar-track {
-            background: hsla(0, 0%, 98%, .13); /* Change to desired background color */
-        }
-
-        /* Customize scrollbar thumb color */
-        ::-webkit-scrollbar-thumb {
-            background: #c4a489; /* Change to desired thumb color */
-            border-radius: 10px; /* Adjust to make the edges rounded */
-        }
-
-            /* Customize scrollbar thumb on hover */
-            ::-webkit-scrollbar-thumb:hover {
-                background: #e4a909; /* Change to desired hover color */
-            }
 
         /* Hide scrollbar when not in use */
         .content::-webkit-scrollbar {
@@ -51,21 +45,23 @@
             opacity: 1; /* Show scrollbar on hover */
         }
 
-        /* Add custom scrollbar animation */
-        @keyframes custom-scrollbar-pulse {
-            0%, 100% {
-                opacity: 1;
-            }
-
-            50% {
-                opacity: 0;
-            }
+        /* Customize scrollbar track color */
+        ::-webkit-scrollbar-track {
+            background: hsla(0, 0%, 98%, .13); /* Change to desired background color */
         }
 
-        /* Apply animation to scrollbar thumb */
+        /* Customize scrollbar thumb color */
         ::-webkit-scrollbar-thumb {
+            background: #c4a489; /* Change to desired thumb color */
+            border-radius: 10px; /* Adjust to make the edges rounded */
             animation: custom-scrollbar-pulse 1.5s infinite; /* Adjust animation duration as needed */
         }
+
+        /* Customize scrollbar thumb on hover */
+        ::-webkit-scrollbar-thumb:hover {
+            background: #e4a909; /* Change to desired hover color */
+        }
+
     </style>
 
     <link rel="stylesheet" href="{{ "/assets/css/main.min.css" | prepend: site.baseurl }}">
