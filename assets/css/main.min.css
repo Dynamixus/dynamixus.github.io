@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap");
 
 html {
-	background: #333333;
+	background: #c4a489;
 	color: #fff;
 	font-family: Raleway, sans-serif;
 	font-size: 1rem;
@@ -516,6 +516,7 @@ a:hover {
 }
 
 .project-image {
+	display:flex;
 	width: 100px; /* Adjust width as needed */
 	height: 100px; /* Adjust height as needed */
 	border-radius: 10px; /* Adjust border radius for rounded corners */
