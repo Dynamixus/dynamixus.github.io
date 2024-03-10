@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap");
 
 html {
-	background: #f7d3b4;
+	background: #333333;
 	color: #fff;
 	font-family: Raleway, sans-serif;
 	font-size: 1rem;
@@ -11,8 +11,10 @@ html {
 }
 
 .avatar {
+	width: 20px; /* Adjust width as needed */
+	height: 20px;
 	border-radius: 50%;
-	box-shadow: 0 0 20px rgba(0, 255, 255, 0.5); /* Adjust the color and size of the glow here */
+	box-shadow: 0 0 2px #c4a489; /* Adjust the color and size of the glow here */
 	margin-bottom: 20px
 }
 
@@ -65,7 +67,7 @@ a:hover {
 }
 
 .layout .card {
-	background: linear-gradient(145deg, hsla(0, 0%, 45%, .15) 15%, #fcebd5 80%);
+	background: linear-gradient(145deg, hsla(0, 0%, 45%, .15) 15%, rgba(0, 0, 0, .4) 80%);
 	border-radius: 2rem;
 	margin: 3rem 0;
 	padding: 1rem 2rem
@@ -100,7 +102,7 @@ a:hover {
 #preloader {
 	-ms-flex-align: center;
 	align-items: center;
-	background: #333333;
+	background: #ebcbaf;
 	display: -ms-flexbox;
 	display: flex;
 	height: 100%;
