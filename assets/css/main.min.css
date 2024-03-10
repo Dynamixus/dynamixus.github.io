@@ -11,10 +11,10 @@ html {
 }
 
 .avatar {
-	width: 20px; /* Adjust width as needed */
-	height: 20px;
+	width: 150px; /* Adjust width as needed */
+	height: 150px;
 	border-radius: 50%;
-	box-shadow: 0 0 2px #c4a489; /* Adjust the color and size of the glow here */
+	box-shadow: 0 0 5px #c4a489; /* Adjust the color and size of the glow here */
 	margin-bottom: 20px
 }
 
@@ -102,7 +102,7 @@ a:hover {
 #preloader {
 	-ms-flex-align: center;
 	align-items: center;
-	background: #ebcbaf;
+	background: #333333;
 	display: -ms-flexbox;
 	display: flex;
 	height: 100%;
@@ -505,9 +505,25 @@ a:hover {
 }
 
 .project {
+	display: flex;
 	border-radius: 1rem;
 	margin: 1rem 0;
 	padding: .5rem 1rem
+}
+
+.visual-aid {
+	flex: 0 0 auto; /* Let the visual aid occupy only the necessary space */
+}
+
+.project-image {
+	width: 100px; /* Adjust width as needed */
+	height: 100px; /* Adjust height as needed */
+	border-radius: 10px; /* Adjust border radius for rounded corners */
+	margin-right: 20px; /* Adjust margin between image and text */
+}
+
+.project-details {
+	flex: 1; /* Expand to fill remaining space */
 }
 
 .project .name-link-wrapper {
