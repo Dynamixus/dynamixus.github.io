@@ -520,6 +520,8 @@ a:hover {
 	height: 100px; /* Adjust height as needed */
 	border-radius: 10px; /* Adjust border radius for rounded corners */
 	margin-right: 20px; /* Adjust margin between image and text */
+	margin-left: 10px;
+	align-items: center;
 }
 
 .project-details {
