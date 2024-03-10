@@ -21,10 +21,10 @@ html {
 	border-radius: 10px; /* Adjust to make the edges rounded */
 }
 
-	/* Customize scrollbar thumb on hover */
-	::-webkit-scrollbar-thumb:hover {
-		background: #e4a909; /* Change to desired hover color */
-	}
+/* Customize scrollbar thumb on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: #e4a909; /* Change to desired hover color */
+}
 
 /* Hide scrollbar when not in use */
 .content::-webkit-scrollbar {
