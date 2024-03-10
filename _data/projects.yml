@@ -16,19 +16,19 @@
 - name: The Chronicles of Nero
   descr: "My writing blog, located on Tumblr. Its contents are mainly articles, intended as a writing portfolio for job hunting."
   demo: https://nerochronicles.tumblr.com/
-  image: "/assets/project1.png"
+  image: "/assets/img/project1.png"
 
 - name: Dyna's Piloting Service
   descr: "Piloting service for popular games such as Genshin Impact and Honkai Star Rail. I also accept academic commissions."
   demo: https://bit.ly/dynaservices
-  image: "/assets/project2.png"
+  image: "/assets/img/project2.png"
 
 - name: The Night Howls
   descr: "My personal written works, most of which are poetry. Not regularly updated, but there are still some good reads."
   demo: https://thenightwhispersx.tumblr.com/
-  image: "/assets/project3.png"
+  image: "/assets/img/project3.png"
 
 - name: My Spotify Playlists
   descr: "You never know, you might like some of them. Playlists are categorized in folders. Feel free to add me."
   demo: https://open.spotify.com/user/hmko8huug7r8hunoiqf8glh4i
-  image: "/assets/project4.png"
+  image: "/assets/img/project4.png"
